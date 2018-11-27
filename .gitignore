@@ -1,0 +1,9 @@
+.DS_Store
+.ipynb_checkpoints/
+derby.log
+metastore_db/
+server/.DS_Store
+server/.idea/
+server/__pycache__/
+session.pkl
+
