@@ -3,6 +3,7 @@ from paste.translogger import TransLogger
 from app import create_app
 from pyspark import SparkContext, SparkConf
 
+
 def init_spark_context():
     # load spark context
     conf = SparkConf().setAppName("movie_recommendation-server")
@@ -40,8 +41,10 @@ if __name__ == "__main__":
     # start web server
     run_server(app)
 
+
     # defining function to run on shutdown
     def stop_spark_context():
         sc.stop()
+
 
     cherrypy.engine.subscribe('stop', stop_spark_context)

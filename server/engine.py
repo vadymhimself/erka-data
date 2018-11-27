@@ -12,7 +12,8 @@ logger = logging.getLogger(__name__)
 
 
 class RecommendationEngine:
-    """A movie recommendation engine
+    """
+    A product recommendation engine
     """
 
     def get_association_rules(self, product_id):
@@ -38,7 +39,8 @@ class RecommendationEngine:
             .collect()
 
     def __init__(self, sc, model_dir):
-        """Init the recommendation engine given a Spark context and models path
+        """
+        Init the recommendation engine given a Spark context and models path
         """
 
         logger.info("Starting up the Recommendation Engine: ")
