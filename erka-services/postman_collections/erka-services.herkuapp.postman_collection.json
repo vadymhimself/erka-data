@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "6e5db006-b4a7-4e77-a8b6-1b5638e7793c",
+		"name": "erka-services.herkuapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://erkaservices.herokuapp.com/ping",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://erkaservices.herokuapp.com/ping",
+					"protocol": "https",
+					"host": [
+						"erkaservices",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://erkaservices.herokuapp.com/get_att_products",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "86fefe85-f408-465f-9fae-8319af48567d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": [\"1\", \"2\"],\n    \"length_restriction\": 1\n}"
+				},
+				"url": {
+					"raw": "https://erkaservices.herokuapp.com/get_att_products",
+					"protocol": "https",
+					"host": [
+						"erkaservices",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"get_att_products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://erkaservices.herokuapp.com/get_similar_products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"37392\",\n    \"length_restriction\": 2\n}"
+				},
+				"url": {
+					"raw": "https://erkaservices.herokuapp.com/get_similar_products",
+					"protocol": "https",
+					"host": [
+						"erkaservices",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"get_similar_products"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://erkaservices.herokuapp.com/get_similar_products",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"37392\",\n    \"length_restriction\": 2\n}"
+						},
+						"url": {
+							"raw": "https://erkaservices.herokuapp.com/get_similar_products",
+							"protocol": "https",
+							"host": [
+								"erkaservices",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"get_similar_products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn/19.9.0"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 03 Apr 2019 11:33:04 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "399"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"similar\": [\n        {\n            \"id\": \"89930\",\n            \"name\": \"Динисорб конц. для р-ра д/инф. 1мг/мл  амп.10мл №10\",\n            \"score\": \"1.\"\n        },\n        {\n            \"id\": \"97523\",\n            \"name\": \"Нитросорбид тб 10мг N50\",\n            \"score\": \"1.\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "erka-products",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "erka-services",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "4b2252a1-022c-4559-9884-6dcf527fe640",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b3e475aa-ea79-4f6a-8d4a-a5954e98ae5c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

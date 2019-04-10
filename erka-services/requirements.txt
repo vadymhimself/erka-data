@@ -1,0 +1,10 @@
+requests
+IPython
+beautifulsoup4
+pandas
+fuzzywuzzy
+flask
+python-Levenshtein
+flask_basicauth
+gunicorn
+turicreate
