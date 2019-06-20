@@ -1,0 +1,1016 @@
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:36:37] "[1m[31mGET /ping HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:37:15] "[1m[31mGET /ping HTTP/1.1[0m" 401 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:37:44] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:37:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:46:00] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:47:37] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:48:53] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:55:50] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:57:35] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:59:02] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 15:59:46] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:01:24] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:02:05] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:06:03] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:11:05] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:12:13] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:14:01] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:14:23] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:31:48] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:32:54] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:33:49] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:36:22] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 16:38:34] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:11:26] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:17:02] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:5000
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:5000
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:5000
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:5000
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:5000
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:34:54] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:38:20] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:39:07] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:39:41] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:40:11] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:43:11] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:45:03] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:46:18] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:49:48] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:52:37] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:56:46] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 17:58:54] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:02:54] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:03:22] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:05:58] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:07:13] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:07:48] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:11:17] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:12:41] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:13:27] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:15:25] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:16:09] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:18:06] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:19:30] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:20:51] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:22:28] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:24:47] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:25:23] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2019 18:25:42] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:31:04] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:31:04] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:32:16] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:32:16] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:34:41] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:34:42] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:35:14] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:35:15] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:39:33] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:39:34] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:44:40] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:44:43] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:44:44] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:44:47] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:44:47] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:44:50] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:24] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:26] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:29] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:31] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:36] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:37] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:38] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:38] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:39] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:44] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:44] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:48] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:48] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:54] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:45:59] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:00] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:06] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:08] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:10] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:13] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:13] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:16] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:18] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:24] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:24] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:30] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:35] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:36] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:37] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:38] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:40] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:41] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:47] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:47] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:47] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:51] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:53] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:58] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:46:59] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:05] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:07] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:12] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:15] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:18] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:23] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:25] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:25] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:26] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:27] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:27] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:30] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:31] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:36] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:37] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:42] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:43] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:47] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:49] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:51] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:56] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:59] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:59] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:47:59] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:03] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:06] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:06] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:07] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:12] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:14] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:17] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:17] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:17] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:19] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:24] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:27] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:27] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:28] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:29] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:29] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:33] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:36] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:42] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:44] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:46] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:48] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:49] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:52] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:48:57] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:01] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:03] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:04] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:09] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:09] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:11] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:14] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:14] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:16] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:19] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:19] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:22] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:23] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:24] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:29] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:32] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:35] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:35] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:37] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:43] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:48] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:51] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:51] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:51] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:51] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:57] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:59] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:49:59] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:01] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:03] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:08] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:10] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:13] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:18] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:18] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:21] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:22] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:24] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:25] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:26] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:31] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:36] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:42] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:44] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:46] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:48] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:50] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:52] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:50:58] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:00] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:05] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:06] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:11] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:14] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:15] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:15] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:15] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:18] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:20] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:21] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:24] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:25] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:30] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:34] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:39] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:41] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:45] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:46] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:48] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:50] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:52] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:54] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:56] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:51:56] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:02] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:02] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:05] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:08] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:13] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:16] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:19] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:20] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:20] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:21] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:27] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:29] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:34] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:35] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:37] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:39] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:39] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:39] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:39] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:41] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:43] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:45] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:47] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:53] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:55] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:57] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:52:59] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:04] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:04] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:08] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:10] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:13] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:13] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:18] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:20] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:23] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:25] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2019 19:53:30] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:49:09] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:51:31] "[1m[31mGET /ping HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:52:30] "[1m[31mGET /ping HTTP/1.1[0m" 401 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:53:36] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:53:42] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:55:47] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:57:20] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:20] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:22] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:22] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:23] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:23] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:24] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:25] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:25] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:26] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:root:Ping-Pong
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:26] "[37mGET /ping HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:27] "[1m[31mGET /ping HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:38] "[1m[31mGET /ping HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:40] "[1m[31mGET /ping HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 17:58:41] "[1m[31mGET /ping HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 18:12:48] "[1m[31mGET /ping HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 18:22:13] "[1m[35mGET /ping HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 18:22:52] "[1m[35mGET /ping HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 18:24:44] "[1m[31mGET /ping HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 18:25:42] "[1m[31mGET /ping HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 18:26:34] "[1m[31mGET /ping?api-key=0OST_fKDaQnMRYyh4d3ogmJpqcFbJIaTFC78JRliDpUoUdrCUB2kxQ HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2019 18:26:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 16:55:45] "[1m[35mPOST /get_associated_products HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 16:56:21] "[1m[35mPOST /get_associated_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 16:57:24] "[37mPOST /get_associated_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 17:17:13] "[1m[35mPOST /get_associated_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 17:17:52] "[1m[35mPOST /get_associated_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 17:18:29] "[37mPOST /get_associated_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 17:36:46] "[37mPOST /get_associated_products HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 17:37:41] "[37mPOST /get_associated_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 19:28:48] "[1m[35mPOST /get_associated_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 19:39:30] "[37mPOST /get_associated_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 19:42:07] "[37mPOST /get_associated_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 19:47:50] "[37mPOST /get_associated_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 19:50:15] "[37mPOST /get_associated_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2019 19:51:22] "[37mPOST /get_associated_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 18:13:36] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 18:21:52] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 18:25:18] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 18:27:02] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 18:28:38] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 18:28:40] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 18:33:36] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 18:34:26] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 19:14:55] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 19:15:24] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 19:30:51] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 19:41:21] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 19:45:23] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 19:47:15] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 19:53:46] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 19:55:59] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 19:56:48] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 19:57:52] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 20:03:00] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 20:03:29] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 21:10:22] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [15/May/2019 21:11:36] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 14:58:59] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 16:24:40] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 16:24:49] "[1m[31mPOST /get_similar_products HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 16:25:21] "[1m[31mPOST /get_att_products HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 16:25:37] "[1m[31mPOST /get_associated_products HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 16:26:43] "[37mPOST /get_associated_products HTTP/1.1[0m" 200 -
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 16:27:04] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ERROR:werkzeug:127.0.0.1 - - [29/May/2019 18:02:55] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03·W\x1d[ÝKÑ÷îçZ/Þ(\x942\\h\x1f\x1eý\x02v~æÂT|í\x88\x93¦\x00\x00\xa0À0À,À(À$À\x14À')
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:02:55] "[1m[35m  ü·W[ÝKÑ÷îçZ/Þ(2\hýv~æÂT|í¦   À0À,À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:03:24] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:04:44] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:05:42] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:20:51] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:20:54] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:23:48] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:23:49] "[1m[35mPOST /get_att_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:24:35] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:25:15] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:26:41] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:29:21] "[1m[35mPOST /get_similar_products HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:31:43] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:32:38] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [29/May/2019 18:32:58] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_similar_products endpoint
+INFO:root:response 
+INFO:werkzeug:127.0.0.1 - - [03/Jun/2019 20:34:21] "[37mPOST /get_similar_products HTTP/1.1[0m" 200 -
+INFO:root:response 
+INFO:root:response 
+INFO:root:response 
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 19:51:17] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 19:51:30] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 19:51:49] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 19:53:04] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 19:56:40] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 19:56:57] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 19:57:07] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 19:57:14] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 19:58:50] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 20:00:32] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 20:00:53] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 20:01:25] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2019 20:01:34] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2019 14:18:19] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2019 14:18:28] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:/get_att_products endpoint
+INFO:werkzeug:127.0.0.1 - - [05/Jun/2019 14:19:18] "[37mPOST /get_att_products HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)

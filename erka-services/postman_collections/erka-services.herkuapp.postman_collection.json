@@ -12,7 +12,13 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "api-key",
+						"value": "uT7GZN78UUt6RDX5UF-VQN-IMEh1yhMOsaoHBX_7SWgLCDpK7JAHIw",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": ""
@@ -27,6 +33,13 @@
 					],
 					"path": [
 						"ping"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
 					]
 				}
 			},
@@ -53,6 +66,11 @@
 						"key": "Content-Type",
 						"name": "Content-Type",
 						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "api-key",
+						"value": "uT7GZN78UUt6RDX5UF-VQN-IMEh1yhMOsaoHBX_7SWgLCDpK7JAHIw",
 						"type": "text"
 					}
 				],
@@ -83,6 +101,11 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "api-key",
+						"value": "uT7GZN78UUt6RDX5UF-VQN-IMEh1yhMOsaoHBX_7SWgLCDpK7JAHIw",
 						"type": "text"
 					}
 				],

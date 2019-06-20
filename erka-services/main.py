@@ -1,3 +1,4 @@
+import sys
 import urllib
 from urllib.request import Request, urlopen
 import requests
@@ -6,25 +7,26 @@ import re
 import json
 import math
 import pandas as pd
+import pickle
 from fuzzywuzzy import process, fuzz
 from flask import Flask, request, jsonify, abort, render_template
 from functools import wraps
 
-from recom.recom_interface import recommend
+# from recom.recom_interface import recommend
 
 import logging
+
 import resource
 
 # drugs database
 PATH_DRUGS_DATABASE = 'data/meds.csv'
 PATH_ASSOCIATED_RULES = 'data/rules1.csv'
 PATH_MEDFORMS_CAT = 'data/medforms_small.json'
+PATH_POPULAR_PRODUCTS = 'recom/data/most_popular.txt'
 drugs_db = pd.read_csv(PATH_DRUGS_DATABASE)
 associated_rules = pd.read_csv(PATH_ASSOCIATED_RULES)
 with open(PATH_MEDFORMS_CAT, 'r') as f:
     medforms_cat = json.load(f)
-
-log = logging.basicConfig(level=logging.DEBUG, filename='interface.log')
 
 
 def get_apx_code(product):
@@ -69,6 +71,7 @@ def get_apx_code(product):
 
 
 def find_similar(drug_name, length_restriction):
+    length_restriction = length_restriction if not length_restriction else int(length_restriction)
     try:
         drug_inst = drugs_db.loc[drugs_db['id'] == int(drug_name)].iloc[0]
     except IndexError:
@@ -78,33 +81,36 @@ def find_similar(drug_name, length_restriction):
         drug_inst = get_apx_code(drug_inst)
 
     if pd.isnull(drug_inst.get('atx')) or drug_inst.get('atx') == '':
-        product_name = drug_inst['tradeName'] if not pd.isnull(drug_inst.get('tradeName')) else drug_inst['normalized_name']
+        product_name = drug_inst['tradeName'] if not pd.isnull(drug_inst.get('tradeName')) else drug_inst[
+            'normalized_name']
         product_names = pd.concat(
             [drugs_db[drugs_db['tradeName'].isin([product_name])],
              drugs_db[drugs_db['normalized_name'].isin([product_name])]],
             ignore_index=True)
         product_names = product_names.drop_duplicates(keep='first')
-
-        medforms = [equal_medform for medform in set(product_names['medForm'].tolist()) for equal_medform in medforms_cat.get(medform, [])]
+        medforms = [equal_medform for medform in set(product_names['medForm'].tolist()) for equal_medform in
+                    medforms_cat.get(medform, [])]
         products = drugs_db[drugs_db['medForm'].isin(medforms)]
-
         p = drug_inst['normalized_name']
         ps = products['normalized_name'].tolist()
-        best_name = process.extractBests(p, set(ps), limit=3*length_restriction, scorer=fuzz.token_set_ratio, score_cutoff=75)
-
+        best_name = process.extractBests(p, set(ps), limit=len(ps), scorer=fuzz.token_set_ratio, score_cutoff=80)
+        # import time
+        # s = time.time()
         best_names_corr = []
         for name in best_name:
-            if drugs_db[drugs_db['normalized_name'].isin([name[0]])]['id'].tolist()[0] not in [int(drug_name), drug_name]:
+            if drugs_db[drugs_db['normalized_name'].isin([name[0]])]['id'].tolist()[0] not in [int(drug_name),
+                                                                                               drug_name]:
                 dct = dict(drugs_db[drugs_db['normalized_name'] == name[0]].iloc[0])
                 dct['score'] = name[1]
                 best_names_corr.append(dct)
         best_name = best_names_corr
-
-        if len(best_name) > int(length_restriction):
+        # print(time.time() - s )
+        length_restriction = len(best_name) if not length_restriction else length_restriction
+        if len(best_name) > length_restriction:
             companies = [name['company_name'] for name in best_name]
-            comp_number = math.ceil(int(length_restriction)/len(set(companies)))
+            comp_number = math.ceil(length_restriction / len(set(companies)))
             if comp_number <= 1:
-                best_name = best_name[:int(length_restriction)]
+                best_name = best_name[:length_restriction]
             else:
                 best_comp = []
                 companies_set = set(companies)
@@ -115,49 +121,55 @@ def find_similar(drug_name, length_restriction):
                             best_comp.append(name)
                             num += 1
 
-                if len(best_comp) < int(length_restriction):
+                if len(best_comp) < length_restriction:
                     indices = [item['id'] for item in best_comp]
                     for name in best_name:
-                        if len(indices) == int(length_restriction):
+                        if len(indices) == length_restriction:
                             break
                         if name['id'] not in indices:
                             best_comp.append(name)
                             indices.append(name['id'])
                     best_name = best_comp
                 else:
-                    best_name = best_comp[:int(length_restriction)]
-
-        find = {'similar': [{"name": name['normalized_name'], 'id': str(name['id']), 'score': str(name['score'] / 100)} for name in best_name]}
+                    best_name = best_comp[:length_restriction]
+        find = {
+            'similar': [{"name": name['normalized_name'], 'id': str(name['id']), 'score': str(name['score'] / 100)} for
+                        name in best_name]}
 
     else:
         suggestions = drugs_db.loc[list(
             map(lambda x: x[:-1] == drug_inst.get('atx')[:-1] if not pd.isnull(x) and x != '' else False,
                 drugs_db['atx']))]
 
-        if len(suggestions) <= int(length_restriction):
+        length_restriction = len(suggestions) if not length_restriction else length_restriction
+
+        if len(suggestions) <= length_restriction:
             length_restriction = len(suggestions)
         else:
             length_restriction = length_restriction + 1
 
         find = {
-            'similar': [{'name': suggestions.iloc[i]['normalized_name'], 'id': str(suggestions.iloc[i]['id']), 'score': '1.'} for i
-                        in range(length_restriction )
-                        if not pd.isnull(suggestions.iloc[i]['id']) and str(suggestions.iloc[i]['id']) not in [
-                            int(drug_name), drug_name]]}
-    logging.info('response ', find)
+            'similar': [
+                {'name': suggestions.iloc[i]['normalized_name'], 'id': str(suggestions.iloc[i]['id']), 'score': '1.'}
+                for i
+                in range(length_restriction)
+                if not pd.isnull(suggestions.iloc[i]['id']) and str(suggestions.iloc[i]['id']) not in [
+                    int(drug_name), drug_name]]}
+
     return jsonify(find)
 
 
 app = Flask(__name__)
+# app.logger.setLevel(logging.INFO)
 
 
 @app.errorhandler(403)
 def page_not_found(e):
     return render_template('403.html'), 403
 
+
 def require_apikey(view_function):
     @wraps(view_function)
-
     def decorated_function(*args, **kwargs):
         with open('apikeys.json', 'r') as apikey:
             keys = json.load(apikey)
@@ -172,12 +184,13 @@ def require_apikey(view_function):
                 abort(403)
         else:
             abort(401)
+
     return decorated_function
+
 
 @app.route('/ping', methods=['GET'])
 @require_apikey
 def ping():
-    logging.info('Ping-Pong')
     return "pong"
 
 
@@ -187,74 +200,70 @@ def get_similar_drugs():
     '''
     :return: json dict of lists
     '''
-    logging.info('/get_similar_products endpoint')
     drug_name = request.json['id']
-    length_restriction = request.json['length_restriction']
-    # logging.info('product_id ', drug_name)
-    
-    return find_similar(drug_name, length_restriction)
+    length_restriction = request.json.get('length_restriction')
+    # app.logger.info('/get_similar_products endpoint receive id: ' + str(drug_name))
+    res = find_similar(drug_name, length_restriction)
+    # app.logger.info('/get_similar_products endpoint finish process')
+    return res
+
+
+# @app.route('/get_att_products', methods=['POST'])
+# @require_apikey
+# def get_att_drugs():
+#     '''
+#     :return: json dict of list
+#     '''
+#     drug_name = request.json['id']
+#     length_restriction = request.json['length_restriction']
+#     N = int(length_restriction)
+#     if not isinstance(drug_name, list):
+#         drug_name = [drug_name]
+#
+#     res = recommend(drug_name, N)
+#     if res == []:
+#         # can't find sutable id
+#         new_drugs = []
+#         for drug in drug_name:
+#             [new_drugs.append(int(item['id'])) for item in json.loads(find_similar(drug, 1).data)['similar'][:3]]
+#
+#         res = recommend(new_drugs, N, last_trial=True)
+#
+#     attendants = [{"id": i['productId'], "score": i["score"]} for i in res]
+#
+#     find = {"attendants": attendants}
+#
+#     return jsonify(find)
 
 
 @app.route('/get_att_products', methods=['POST'])
-@require_apikey
-def get_att_drugs():
-    '''
-    :return: json dict of list
-    '''
-    drug_name = request.json['id']
-    length_restriction = request.json['length_restriction']
-    N = int(length_restriction)
-    if not isinstance(drug_name, list):
-        drug_name = [drug_name]
-
-    res = recommend(drug_name, N)
-    if res == []:
-        # can't find sutable id
-        new_drugs = []
-        for drug in drug_name:
-            [new_drugs.append(int(item['id'])) for item in json.loads(find_similar(drug, 1).data)['similar'][:3]]
-
-        res = recommend(new_drugs, N, last_trial=True)
-
-    attendants = [{"id": i['productId'], "score": i["score"]} for i in res]
-
-    find = {"attendants": attendants}
-
-    return jsonify(find)
-
-
-@app.route('/get_associated_products', methods=['POST'])
 @require_apikey
 def get_associated_products():
     '''
     :return: json dict of list
     '''
-    drug_name = str(request.json['id'])
+    drug_names = [str(x) for x in list(request.json['id'])]
+    threshold = float(request.json['threshold'])
+    # app.logger.info('/get_att_products endpoint receive id: ' + str(drug_names))
 
-    def get_recommends(index):
-        rules = associated_rules[associated_rules.antecedents.apply(lambda x: index in x)]
-        rules = list(sorted(rules.loc[:, ['consequents', 'confidence']].values.tolist(), key=lambda x: x[1], reverse=True))
+    def get_recommends(ids):
+        rules = associated_rules[associated_rules.antecedents.apply(lambda x: all(item in x for item in ids))]
+        rules = list(
+            sorted(rules.loc[:, ['consequents', 'confidence', 'index']].values.tolist(), key=lambda x: x[1], reverse=True))
 
-        check = set()
         updated_rules = []
         for s in rules:
-            for item in s[0][s[0].find("{")+1:s[0].find("}")].split(','):
-                if int(item) not in check:
-                    updated_rules.append({'product': int(item), 'score': s[1]})
-                    check.add(int(item))
+            if s[1] >= threshold:
+                rule = [int(item) for item in s[0][s[0].find("{") + 1:s[0].find("}")].split(',')]
+                updated_rules.append({'products': rule, 'confidence': s[1], 'rule_id': s[2]})
 
         return updated_rules
 
-    find = {'associated': get_recommends(drug_name)}
-    
+    rec_prods = get_recommends(drug_names)
+    find = {'associated': rec_prods}
+    # app.logger.info('/get_att_products endpoint finish process')
     return jsonify(find)
 
-# def limit_memory():
-#     soft, hard = resource.getrlimit(resource.RLIMIT_AS)
-#     resource.setrlimit(resource.RLIMIT_AS, (200*1024*1024, hard))
-#     soft, hard = resource.getrlimit(resource.RLIMIT_VMEM)
-#     resource.setrlimit(resource.RLIMIT_VMEM, (200*1024*1024, hard))
 
 if __name__ == '__main__':
-#     limit_memory()
     app.run(host="0.0.0.0", use_reloader=False)
